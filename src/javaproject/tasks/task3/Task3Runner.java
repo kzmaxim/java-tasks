@@ -56,7 +56,7 @@ public class Task3Runner {
             } else if (input.equals("3")) {
                 System.out.println("Введите ID студента: ");
                 int studentId = console.nextInt();
-                console.nextLine(); 
+                console.nextLine();
                 System.out.println("Введите название курса: ");
                 String courseName = console.nextLine();
                 assignCourse(studentId, courseName);
